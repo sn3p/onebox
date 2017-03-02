@@ -4,7 +4,7 @@ module Onebox
       include Engine
       include LayoutSupport
 
-      matches_regexp(/^(https?:)?\/\/.*\.pdf(\?.*)?$/i)
+      matches_regexp(/^(https:)?\/\/.*\.pdf(\?.*)?$/i)
       always_https
 
       private
